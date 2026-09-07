@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Parthik Pankhaniya — Software Developer | .NET Core &amp; Angular</title>
+  <title>Parthik Pankhaniya — Full-Stack Developer | .NET Core &amp; Angular Portfolio</title>
 
   <!-- Favicon (Developer / .NET Developer) -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -20,24 +20,24 @@
 
   <!-- SEO Meta -->
   <meta name="description"
-    content="Parthik Pankhaniya — Software Developer with 3.5+ years experience engineering full-stack web applications with .NET Core backend and Angular frontend, specializing in C#, ASP.NET Core, RESTful Web APIs, SQL Server, and Clean Architecture.">
+    content="Parthik Pankhaniya — Full-Stack Software Developer available for client projects, contracts, and full-cycle development. Engineering production-grade web applications with .NET Core backends, Angular frontends, payment integrations, high-performance SQL Server architectures, and AI-accelerated workflows using Antigravity IDE, Claude Code, and ChatGPT.">
   <meta name="keywords"
-    content="Software Developer, .NET Developer, .NET Core, Angular, TypeScript, ASP.NET Core, C#, SQL Server, Web API, Entity Framework Core, Clean Architecture, WebSocket, AI Integration, CQRS, Parthik Pankhaniya">
+    content="Full-Stack Developer, .NET Core Developer, Angular Developer, Hire .NET Developer, Web Application Development, Freelance Software Developer, ASP.NET Core, C#, SQL Server, Web API, Stripe Integration, Razorpay Integration, Antigravity IDE, Claude Code, ChatGPT, Cursor, AI Developer, Parthik Pankhaniya">
   <meta name="author" content="Parthik Pankhaniya">
 
   <!-- Open Graph (LinkedIn / WhatsApp Preview) -->
-  <meta property="og:title" content="Parthik Pankhaniya — Software Developer | .NET Core &amp; Angular">
+  <meta property="og:title" content="Parthik Pankhaniya — Full-Stack Developer | .NET Core &amp; Angular Portfolio">
   <meta property="og:description"
-    content="Engineering high-performance web applications with .NET Core backend, Angular frontend, Clean Architecture, and scalable RESTful APIs.">
+    content="Delivering production-grade web applications, .NET Core backends, Angular frontends, payment gateways, and scalable APIs for businesses and startups worldwide.">
   <meta property="og:image"
     content="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg">
   <meta property="og:type" content="website">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Parthik Pankhaniya — Software Developer | .NET Core &amp; Angular">
+  <meta name="twitter:title" content="Parthik Pankhaniya — Full-Stack Developer | .NET Core &amp; Angular Portfolio">
   <meta name="twitter:description"
-    content="3.5+ years experience | .NET Core Backend | Angular Frontend | C# | ASP.NET Core | RESTful Web APIs | SQL Server">
+    content="Full-Stack Developer available for client projects | 3.5+ years experience | .NET Core Backend | Angular Frontend | Stripe & Razorpay | SQL Server">
   <meta name="twitter:image"
     content="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg">
 
@@ -461,7 +461,7 @@
     /* ─── STATS GRID ──────────────────────────── */
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       border-top: 1px solid var(--border);
       border-left: 1px solid var(--border);
       margin-top: 2.2rem;
@@ -539,6 +539,468 @@
       flex: 1;
       height: 1px;
       background: var(--border2);
+    }
+
+    /* ─── CLIENT SERVICES & SOLUTIONS ─────────── */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 1.4rem;
+    }
+
+    .service-card {
+      background: var(--black2);
+      border: 1px solid var(--border2);
+      border-radius: var(--card-radius);
+      padding: 1.3rem 1.4rem;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+
+    .service-card:hover {
+      border-color: rgba(198, 255, 51, 0.45);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .service-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .service-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: var(--lime-bg);
+      border: 1px solid var(--lime-bd);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--lime);
+      flex-shrink: 0;
+    }
+
+    .service-icon svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .service-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: -0.01em;
+    }
+
+    .service-desc {
+      font-size: 13px;
+      line-height: 1.62;
+      color: #94A3B8;
+      margin: 0;
+    }
+
+    .service-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 4px;
+    }
+
+    .service-footer {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 6px;
+      padding-top: 8px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .service-inquire-link {
+      color: var(--lime);
+      font-size: 11.5px;
+      font-weight: 600;
+      font-family: 'JetBrains Mono', monospace;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      text-decoration: none;
+      transition: gap 0.2s ease, color 0.2s ease;
+    }
+
+    .service-inquire-link:hover {
+      gap: 8px;
+      color: #E2FF80;
+    }
+
+    /* ─── CLIENT GUARANTEES / WHY CHOOSE ME ───── */
+    .guarantees-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-top: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .guarantees-strip {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .guarantees-strip {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .guarantee-item {
+      background: rgba(18, 22, 32, 0.65);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      transition: border-color 0.2s ease;
+    }
+
+    .guarantee-item:hover {
+      border-color: var(--lime-bd);
+    }
+
+    .guarantee-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .guarantee-title span {
+      color: var(--lime);
+    }
+
+    .guarantee-desc {
+      font-size: 11.5px;
+      color: #94A3B8;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    /* ─── ARCHITECTURE BLUEPRINT ─────────────── */
+    .arch-blueprint {
+      background: #080A0F;
+      border: 1px solid var(--border);
+      border-radius: var(--card-radius);
+      padding: 18px 20px;
+      margin-bottom: 2rem;
+      font-family: 'JetBrains Mono', monospace;
+      position: relative;
+    }
+
+    .arch-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 9.5px;
+      letter-spacing: 0.12em;
+      color: var(--lime);
+      background: rgba(198, 255, 51, 0.08);
+      border: 1px solid rgba(198, 255, 51, 0.22);
+      padding: 3px 9px;
+      border-radius: 4px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .arch-flow {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .arch-layer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--black2);
+      border: 1px solid var(--border2);
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 11.5px;
+      color: #E2E8F0;
+      transition: all 0.2s ease;
+    }
+
+    .arch-layer:hover {
+      border-color: var(--lime);
+      box-shadow: 0 0 14px rgba(198, 255, 51, 0.12);
+    }
+
+    .arch-layer-name {
+      font-weight: 600;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .arch-layer-tech {
+      color: var(--lime);
+      font-size: 10.5px;
+    }
+
+    .arch-connector {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #64748B;
+      font-size: 11px;
+      height: 10px;
+    }
+
+    /* ─── FLOATING WHATSAPP PILL ──────────────── */
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 22px;
+      right: 24px;
+      z-index: 9999;
+      background: #0E131F;
+      border: 1px solid rgba(198, 255, 51, 0.35);
+      padding: 10px 18px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--white);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11.5px;
+      text-decoration: none;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55), 0 0 16px rgba(198, 255, 51, 0.18);
+      backdrop-filter: blur(12px);
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .floating-whatsapp:hover {
+      transform: translateY(-3px) scale(1.02);
+      border-color: var(--lime);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.65), 0 0 24px rgba(198, 255, 51, 0.35);
+    }
+
+    .chat-icon-wrap {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .chat-icon-wrap svg {
+      display: block;
+    }
+
+    .float-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--lime);
+      box-shadow: 0 0 10px var(--lime);
+      animation: float-pulse 1.3s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+
+    .chat-icon-wrap .float-dot {
+      position: absolute;
+      top: -3px;
+      right: -3px;
+      width: 7.5px;
+      height: 7.5px;
+      border-radius: 50%;
+      background: var(--lime);
+      box-shadow: 0 0 8px var(--lime);
+      border: 1.5px solid #0E131F;
+      z-index: 2;
+    }
+
+    @keyframes float-pulse {
+
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: 0.35;
+        transform: scale(0.8);
+      }
+    }
+
+    .floating-whatsapp svg {
+      width: 16px;
+      height: 16px;
+      color: var(--lime);
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 480px) {
+      .floating-whatsapp {
+        bottom: 16px;
+        right: 16px;
+        padding: 8px 14px;
+        font-size: 10.5px;
+      }
+    }
+
+    /* ─── INTERACTIVE PROJECT BRIEF MODAL ──────── */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 7, 10, 0.85);
+      backdrop-filter: blur(10px);
+      z-index: 99999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+
+    .modal-backdrop.active {
+      display: flex;
+      opacity: 1;
+    }
+
+    .project-modal {
+      background: #0E121A;
+      border: 1px solid var(--border2);
+      border-radius: 14px;
+      max-width: 540px;
+      width: 100%;
+      padding: 24px 26px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75), 0 0 35px rgba(198, 255, 51, 0.15);
+      position: relative;
+      transform: scale(0.96);
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .modal-backdrop.active .project-modal {
+      transform: scale(1);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: #94A3B8;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.2s ease;
+    }
+
+    .modal-close:hover {
+      color: var(--white);
+      border-color: var(--lime);
+    }
+
+    .modal-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+
+    .modal-subtitle {
+      font-size: 12px;
+      color: #94A3B8;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    .modal-section-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--lime);
+      margin-bottom: 8px;
+      display: block;
+      font-weight: 600;
+    }
+
+    .modal-options-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 7px;
+      margin-bottom: 14px;
+    }
+
+    @media (max-width: 480px) {
+      .modal-options-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .modal-opt-btn {
+      background: var(--black2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 8px 11px;
+      font-size: 11.5px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: #CBD5E1;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s ease;
+    }
+
+    .modal-opt-btn.selected {
+      background: rgba(198, 255, 51, 0.1);
+      border-color: var(--lime);
+      color: var(--white);
+      font-weight: 600;
+    }
+
+    .modal-preview-box {
+      background: #07090E;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #94A3B8;
+      line-height: 1.5;
+      margin-bottom: 16px;
+      max-height: 90px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 9px;
+      align-items: center;
+      flex-wrap: wrap;
     }
 
     /* ─── EXPERIENCE CARD ─────────────────────── */
@@ -1176,7 +1638,11 @@
       }
 
       .stats-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
       }
 
       .stat {
@@ -1249,15 +1715,14 @@
         justify-content: center;
       }
 
-      /* stats — 2 cols top, 1 full width */
+      /* stats — balanced 2x2 grid */
       .stats-grid {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 1.8rem;
       }
 
-      .stat:last-child {
-        grid-column: 1 / -1;
-        border-right: none;
+      .services-grid {
+        grid-template-columns: 1fr;
       }
 
       .stat {
@@ -1376,6 +1841,7 @@
       .hdr,
       .main,
       .side,
+      .service-card,
       .exp,
       .proj-card,
       .edu,
@@ -1391,6 +1857,7 @@
         border-color: #1E2128 !important;
       }
 
+      .service-card,
       .exp,
       .proj-card,
       .edu,
@@ -1405,6 +1872,618 @@
         text-decoration: none !important;
         color: inherit !important;
       }
+    }
+
+    /* ─── STICKY GLASSMORPHIC TOP NAVBAR ───────────────────────── */
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(7, 8, 10, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      transition: all 0.3s ease;
+    }
+
+    .scroll-progress-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2.5px;
+      width: 0%;
+      background: linear-gradient(90deg, var(--lime-dim), var(--lime));
+      z-index: 1001;
+      transition: width 0.1s ease-out;
+    }
+
+    .nav-container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0.65rem 2.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.2rem;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Syne', sans-serif;
+      font-size: 16px;
+      font-weight: 750;
+      color: var(--white);
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+
+    .nav-brand .brand-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--lime);
+      box-shadow: 0 0 10px var(--lime);
+    }
+
+    .nav-brand .accent {
+      color: var(--lime);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .nav-link {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #94A3B8;
+      letter-spacing: 0.03em;
+      padding: 5px 9px;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .nav-link:hover {
+      color: var(--white);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .live-clock-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(18, 22, 32, 0.85);
+      border: 1px solid var(--border2);
+      border-radius: 100px;
+      padding: 4px 11px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+      color: #CBD5E1;
+      white-space: nowrap;
+    }
+
+    .live-pulse {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #22C55E;
+      box-shadow: 0 0 8px #22C55E;
+      animation: live-glow 1.5s ease-in-out infinite;
+    }
+
+    @keyframes live-glow {
+
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: 0.35;
+        transform: scale(0.85);
+      }
+    }
+
+    @media (max-width: 992px) {
+      .nav-links {
+        display: none;
+      }
+
+      .nav-container {
+        padding: 0.65rem 1.4rem;
+      }
+    }
+
+    /* ─── INTERACTIVE PROJECT FILTERS & METRICS ────────────────── */
+    .proj-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 1.4rem;
+    }
+
+    .proj-filter-btn {
+      background: var(--black2);
+      border: 1px solid var(--border);
+      color: #94A3B8;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .proj-filter-btn:hover {
+      border-color: var(--lime-bd);
+      color: var(--white);
+    }
+
+    .proj-filter-btn.active {
+      background: var(--lime-bg);
+      border-color: var(--lime);
+      color: var(--lime);
+    }
+
+    .proj-card.filtered-out {
+      display: none !important;
+    }
+
+    .proj-metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin: 0.9rem 0 1rem;
+    }
+
+    .proj-metric {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(198, 255, 51, 0.05);
+      border: 1px solid rgba(198, 255, 51, 0.18);
+      border-radius: 4px;
+      padding: 3px 9px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+      font-weight: 500;
+      color: var(--lime);
+    }
+
+    .proj-footer-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 1.2rem;
+      padding-top: 0.9rem;
+      border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .proj-inquire-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--lime);
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .proj-inquire-link:hover {
+      opacity: 0.8;
+      text-decoration: underline;
+    }
+
+    /* ─── CLIENT DELIVERY PROCESS ────────────────────────────── */
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 1.4rem;
+    }
+
+    @media (max-width: 768px) {
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .process-card {
+      background: var(--black2);
+      border: 1px solid var(--border);
+      border-radius: var(--card-radius);
+      padding: 1.3rem 1.4rem;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .process-card:hover {
+      border-color: var(--lime-bd);
+      transform: translateY(-2px);
+    }
+
+    .process-step-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--lime);
+      letter-spacing: 0.12em;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    .process-card-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 6px;
+    }
+
+    .process-card-desc {
+      font-size: 12.5px;
+      color: #94A3B8;
+      line-height: 1.6;
+    }
+
+    /* ─── PRODUCTION CODE SHOWCASE (INTERACTIVE IDE) ───────────── */
+    .code-window {
+      background: #0B0D11;
+      border: 1px solid var(--border2);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      margin-bottom: 1.5rem;
+    }
+
+    .code-window-hdr {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #14171E;
+      border-bottom: 1px solid var(--border);
+      padding: 0 1rem;
+      overflow-x: auto;
+    }
+
+    .code-window-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .code-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .code-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .code-dot.red {
+      background: #EF4444;
+    }
+
+    .code-dot.yellow {
+      background: #F59E0B;
+    }
+
+    .code-dot.green {
+      background: #10B981;
+    }
+
+    .code-tabs {
+      display: flex;
+      gap: 2px;
+    }
+
+    .code-tab {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 14px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #94A3B8;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      border-top: 2px solid transparent;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .code-tab:hover {
+      color: var(--white);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .code-tab.active {
+      color: var(--white);
+      background: #0B0D11;
+      border-top-color: var(--lime);
+      font-weight: 500;
+    }
+
+    .code-copy-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border2);
+      border-radius: 4px;
+      padding: 4px 9px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: #CBD5E1;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .code-copy-btn:hover {
+      background: rgba(198, 255, 51, 0.1);
+      border-color: var(--lime-bd);
+      color: var(--lime);
+    }
+
+    .code-pre-container {
+      padding: 1.2rem 1.4rem;
+      overflow-x: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      line-height: 1.65;
+      color: #E2E8F0;
+      background: #0B0D11;
+      margin: 0;
+    }
+
+    .code-pre-container code {
+      font-family: inherit;
+    }
+
+    .code-window-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 8px 14px;
+      background: #11141A;
+      border-top: 1px solid var(--border);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+      color: #94A3B8;
+    }
+
+    .code-pill {
+      color: var(--lime);
+      font-weight: 500;
+    }
+
+    /* ─── TESTIMONIALS & TRUST ENDORSEMENTS ──────────────────── */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-bottom: 1.4rem;
+    }
+
+    .testimonial-card {
+      background: var(--black2);
+      border: 1px solid var(--border);
+      border-radius: var(--card-radius);
+      padding: 1.4rem 1.6rem;
+    }
+
+    .testimonial-stars {
+      color: var(--lime);
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+    }
+
+    .testimonial-quote {
+      font-size: 13px;
+      color: #E2E8F0;
+      line-height: 1.7;
+      font-style: italic;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      border-top: 1px solid var(--border);
+      padding-top: 0.8rem;
+    }
+
+    .testimonial-author-name {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    .testimonial-author-role {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #94A3B8;
+    }
+
+    .testimonial-verified-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.25);
+      border-radius: 100px;
+      padding: 2px 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: #4ADE80;
+    }
+
+    /* ─── ENGAGEMENT & PRICING MODELS ────────────────────────── */
+    .engagement-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 1.4rem;
+    }
+
+    @media (max-width: 900px) {
+      .engagement-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .engagement-card {
+      background: var(--black2);
+      border: 1px solid var(--border);
+      border-radius: var(--card-radius);
+      padding: 1.4rem 1.4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+    }
+
+    .engagement-card.featured {
+      border-color: var(--lime-bd);
+      background: linear-gradient(180deg, rgba(198, 255, 51, 0.04) 0%, var(--black2) 100%);
+    }
+
+    .engagement-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--lime);
+    }
+
+    .engagement-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--lime);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .engagement-name {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 750;
+      color: var(--white);
+      margin-bottom: 6px;
+    }
+
+    .engagement-desc {
+      font-size: 12px;
+      color: #94A3B8;
+      line-height: 1.6;
+      margin-bottom: 1.2rem;
+    }
+
+    .engagement-bullets {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1.3rem 0;
+    }
+
+    .engagement-bullets li {
+      font-size: 11.5px;
+      color: #CBD5E1;
+      margin-bottom: 7px;
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+    }
+
+    .engagement-bullets li::before {
+      content: '✓';
+      color: var(--lime);
+      font-weight: 700;
+    }
+
+    /* ─── CLIENT FAQ ACCORDION ────────────────────────────────── */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      margin-bottom: 1.4rem;
+    }
+
+    .faq-item {
+      background: var(--black2);
+      border: 1px solid var(--border);
+      border-radius: var(--card-radius);
+      overflow: hidden;
+      transition: border-color 0.2s ease;
+    }
+
+    .faq-item.active {
+      border-color: var(--lime-bd);
+    }
+
+    .faq-question {
+      width: 100%;
+      padding: 1.1rem 1.3rem;
+      background: transparent;
+      border: none;
+      color: var(--white);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 13.5px;
+      font-weight: 600;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      cursor: pointer;
+    }
+
+    .faq-icon {
+      font-size: 16px;
+      color: var(--lime);
+      transition: transform 0.25s ease;
+      flex-shrink: 0;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 0 1.3rem 1.2rem;
+      font-size: 12.5px;
+      color: #94A3B8;
+      line-height: 1.7;
+      border-top: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
     }
   </style>
 </head>
@@ -1426,6 +2505,36 @@
     </div>
   </div>
 
+
+  <!-- ══════════════════════ STICKY NAVIGATION BAR ══════════════════════ -->
+  <nav class="site-nav no-print" aria-label="Quick Navigation">
+    <div class="scroll-progress-bar" id="scroll-progress"></div>
+    <div class="nav-container">
+      <a href="#" class="nav-brand" aria-label="Parthik Pankhaniya Homepage">
+        <span class="brand-dot"></span>
+        Parthik<span class="accent">.dev</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#code-showcase" class="nav-link">Code</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#engagement" class="nav-link">Pricing</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <div class="live-clock-badge" title="Current Local Time in India (IST)">
+          <span class="live-pulse"></span>
+          <span id="nav-live-clock">Rajkot · Loading...</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <div class="page">
 
     <!-- ══════════════════════ HEADER ══════════════════════ -->
@@ -1434,22 +2543,28 @@
         <div class="badge-row">
           <div class="status-badge">
             <span class="pulse"></span>
-            Open to Software Developer Roles
+            Available for Client Projects &amp; Contracts
           </div>
-          <div class="role-tag">Software Developer | .NET Core | Angular | C# | ASP.NET Core | SQL Server | REST APIs
-          </div>
+          <div class="role-tag">Full-Stack Software Developer · .NET Core &amp; Angular Solutions</div>
+          <div class="role-tag" style="border-color:var(--lime-bd);color:var(--lime);">⚡ AI-Accelerated Delivery ·
+            Antigravity IDE · Claude Code · ChatGPT</div>
         </div>
 
         <h1>Parthik<br><span class="accent">Pankhaniya</span></h1>
 
         <p class="tagline">
-          Results-driven <strong>Software Developer</strong> with 3.5+ years of experience engineering modern web
-          applications with <strong>.NET Core</strong> backend and <strong>Angular</strong> frontend. Proficient in
-          building robust RESTful Web APIs, high-performance microservices, and responsive single-page applications
-          using <strong>C#, ASP.NET Core, Angular, TypeScript, Entity Framework Core, and SQL Server</strong>. Strong
-          background in <strong>Clean Architecture</strong>, <strong>WebSocket</strong> real-time systems, and
-          <strong>AI integrations</strong> (LLMs, Google AI & OpenAI APIs). Proven track record delivering 11+
-          production-grade solutions across enterprise and SaaS domains.
+          Full-Stack <strong>Software Developer</strong> with 3.5+ years of experience engineering production-grade web
+          applications, high-throughput backend services, and interactive frontends for businesses, startups, and
+          agencies.
+          Specializing in <strong>.NET Core, C#, ASP.NET Core, Angular, TypeScript, Entity Framework Core, and SQL
+            Server</strong>.
+          Proven track record delivering <strong>11+ client applications</strong> with <strong>Clean
+            Architecture</strong>,
+          seamless <strong>payment integrations</strong> (Stripe, Razorpay, PayPal), <strong>WhatsApp Business
+            API</strong>,
+          and <strong>AI automation</strong> (ChatGPT &amp; Google AI APIs). Leveraging modern AI IDEs and tools
+          (<strong>Antigravity IDE, Claude Code, Cursor, ChatGPT</strong>) for 2x–3x rapid development velocity, clean
+          architecture, and maximum client ROI.
         </p>
 
         <div class="contact-strip">
@@ -1458,7 +2573,7 @@
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
               <circle cx="12" cy="10" r="3" />
             </svg>
-            Rajkot, Gujarat, IN
+            Rajkot, Gujarat, IN (Remote Available)
           </span>
           <a class="c-link" href="mailto:parthikpk0001@gmail.com">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1493,11 +2608,30 @@
         </div>
 
         <div class="btn-row no-print">
-          <a href="#contact" class="btn primary" aria-label="Navigate to Contact Section">
+          <button type="button" class="btn primary" onclick="openProjectModal()" aria-label="Estimate Project Scope">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
             </svg>
-            Let's Connect
+            Estimate Project Scope
+          </button>
+          <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20upcoming%20project%20(.NET%20Core%20%26%20Angular).%0A%0AAre%20you%20available%20for%20a%20brief%2010-minute%20chat%3F"
+            target="_blank" rel="noopener noreferrer" class="btn outline" aria-label="Chat on WhatsApp">
+            <div class="chat-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+              </svg>
+              <span class="float-dot" style="border-color:var(--black2);"></span>
+            </div>
+            Quick WhatsApp Chat
+          </a>
+          <a href="#services" class="btn" aria-label="View Client Services">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+            Services &amp; Architecture
           </a>
         </div>
       </div>
@@ -1509,11 +2643,15 @@
         </div>
         <div class="stat">
           <div class="stat-num">11+</div>
-          <div class="stat-label">Projects Shipped</div>
+          <div class="stat-label">Delivered Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">On-Time Delivery</div>
         </div>
         <div class="stat">
           <div class="stat-num">4</div>
-          <div class="stat-label">Companies</div>
+          <div class="stat-label">Companies &amp; Teams</div>
         </div>
       </div>
     </header>
@@ -1524,7 +2662,242 @@
       <!-- ── MAIN COLUMN ── -->
       <main class="main">
 
-        <!-- 1. WORK EXPERIENCE -->
+        <!-- 1. SERVICES & CLIENT SOLUTIONS -->
+        <section class="sec" id="services">
+          <div class="sec-title">Services &amp; Client Solutions</div>
+
+          <div class="services-grid">
+            <!-- Service 1: Full-Stack Web Development -->
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                    <line x1="8" y1="21" x2="16" y2="21" />
+                    <line x1="12" y1="17" x2="12" y2="21" />
+                  </svg>
+                </div>
+                <div class="service-title">Full-Stack Web App Development</div>
+              </div>
+              <p class="service-desc">
+                Engineering complete, production-grade web applications from scratch or scaling existing systems with
+                responsive <strong>Angular</strong> single-page frontends and high-performance <strong>.NET
+                  Core</strong> backends.
+              </p>
+              <div class="service-chips">
+                <span class="chip lime">Angular</span>
+                <span class="chip lime">.NET Core</span>
+                <span class="chip lime">C#</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">SPA</span>
+                <span class="chip">Admin Dashboards</span>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20would%20like%20to%20discuss%20a%20*Full-Stack%20Web%20App*%20project%20(Angular%20%26%20.NET%20Core).%0A%0ACould%20we%20connect%20for%20a%20brief%2010-minute%20call%3F"
+                  target="_blank" rel="noopener noreferrer" class="service-inquire-link">
+                  Inquire About Web Apps →
+                </a>
+              </div>
+            </div>
+
+            <!-- Service 2: APIs & Integrations -->
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                  </svg>
+                </div>
+                <div class="service-title">RESTful Web APIs &amp; Integrations</div>
+              </div>
+              <p class="service-desc">
+                Building secure, low-latency API architectures and integrating third-party services: payment gateways
+                (<strong>Stripe, Razorpay, PayPal</strong>), <strong>WhatsApp Business API</strong>, and <strong>ChatGPT
+                  / OpenAI APIs</strong>.
+              </p>
+              <div class="service-chips">
+                <span class="chip lime">REST Web APIs</span>
+                <span class="chip lime">Stripe / Razorpay</span>
+                <span class="chip lime">WhatsApp API</span>
+                <span class="chip">ChatGPT API</span>
+                <span class="chip">Webhooks</span>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20would%20like%20to%20discuss%20an%20*API%20Integration%20%26%20Payment%20Gateway*%20project%20(Stripe%20%2F%20Razorpay%20%2F%20.NET%20Core).%0A%0AAre%20you%20available%20for%20a%20brief%20discussion%3F"
+                  target="_blank" rel="noopener noreferrer" class="service-inquire-link">
+                  Inquire About APIs &amp; Payments →
+                </a>
+              </div>
+            </div>
+
+            <!-- Service 3: Database & Performance -->
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                  </svg>
+                </div>
+                <div class="service-title">Database Design &amp; Optimization</div>
+              </div>
+              <p class="service-desc">
+                Architecting relational database schemas, complex LINQ queries, stored procedures, indexing, and Entity
+                Framework Core
+                tuning to deliver high throughput and reduce API latency by <strong>~25%+</strong>.
+              </p>
+              <div class="service-chips">
+                <span class="chip lime">SQL Server</span>
+                <span class="chip lime">EF Core</span>
+                <span class="chip">LINQ</span>
+                <span class="chip">Stored Procedures</span>
+                <span class="chip">Query Tuning</span>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20have%20a%20*SQL%20Server%20%26%20Database%20Optimization*%20requirement%20and%20would%20like%20to%20discuss%20your%20availability."
+                  target="_blank" rel="noopener noreferrer" class="service-inquire-link">
+                  Inquire About Database Tuning →
+                </a>
+              </div>
+            </div>
+
+            <!-- Service 4: Architecture & Modernization -->
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                </div>
+                <div class="service-title">Clean Architecture &amp; Modernization</div>
+              </div>
+              <p class="service-desc">
+                Refactoring legacy systems into clean, testable <strong>Clean Architecture</strong>, upgrading codebases
+                to <strong>.NET 8/9</strong>,
+                and implementing enterprise security with <strong>JWT authentication</strong> and role-based access
+                control (RBAC).
+              </p>
+              <div class="service-chips">
+                <span class="chip lime">Clean Architecture</span>
+                <span class="chip lime">.NET 8/9</span>
+                <span class="chip">JWT Auth</span>
+                <span class="chip">RBAC Security</span>
+                <span class="chip">CQRS</span>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20would%20like%20to%20discuss%20modernizing%20our%20application%20with%20*Clean%20Architecture%20%26%20.NET%208%2F9*."
+                  target="_blank" rel="noopener noreferrer" class="service-inquire-link">
+                  Inquire About Architecture Upgrade →
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Client Trust & Guarantees Strip -->
+          <div class="guarantees-strip">
+            <div class="guarantee-item">
+              <div class="guarantee-title"><span>⚡</span> Rapid Turnaround</div>
+              <p class="guarantee-desc">Agile sprints with direct communication and guaranteed 2–4 hr response times.
+              </p>
+            </div>
+            <div class="guarantee-item">
+              <div class="guarantee-title"><span>🛡️</span> Enterprise Security</div>
+              <p class="guarantee-desc">JWT authentication, role-based authorization, and protected webhook pipelines.
+              </p>
+            </div>
+            <div class="guarantee-item">
+              <div class="guarantee-title"><span>🚀</span> High Performance</div>
+              <p class="guarantee-desc">Optimized SQL Server queries, indexing, and sub-second API response rates.</p>
+            </div>
+            <div class="guarantee-item">
+              <div class="guarantee-title"><span>🤝</span> 30-Day Warranty</div>
+              <p class="guarantee-desc">Complimentary post-launch bug fixing and clean technical documentation handover.
+              </p>
+            </div>
+          </div>
+
+          <!-- Interactive Clean Architecture Visualizer -->
+          <div class="arch-blueprint">
+            <div class="arch-badge">Enterprise Full-Stack Architecture</div>
+            <div class="arch-flow">
+              <div class="arch-layer">
+                <div class="arch-layer-name">
+                  <span>💻</span> Client Frontend Layer
+                </div>
+                <div class="arch-layer-tech">Angular 17+ · TypeScript · Responsive SPA</div>
+              </div>
+              <div class="arch-connector">↓ RESTful Web APIs · JWT Bearer Auth · WebSockets ↓</div>
+              <div class="arch-layer">
+                <div class="arch-layer-name">
+                  <span>⚙️</span> Backend Application Layer
+                </div>
+                <div class="arch-layer-tech">ASP.NET Core 8/9 · Clean Architecture · CQRS</div>
+              </div>
+              <div class="arch-connector">↓ Domain Handlers · Data Access Abstraction ↓</div>
+              <div class="arch-layer">
+                <div class="arch-layer-name">
+                  <span>⚡</span> ORM &amp; Micro-ORM Layer
+                </div>
+                <div class="arch-layer-tech">Entity Framework Core 8/9 + Dapper</div>
+              </div>
+              <div class="arch-connector">↓ Parameterized Queries · Indexing · Transactions ↓</div>
+              <div class="arch-layer">
+                <div class="arch-layer-name">
+                  <span>🗄️</span> High-Performance Database
+                </div>
+                <div class="arch-layer-tech">SQL Server · Relational Schemas · Stored Procedures</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- 1.5. CLIENT DELIVERY PROCESS -->
+        <section class="sec" id="process">
+          <div class="sec-title">Client Delivery Process</div>
+
+          <div class="process-grid">
+            <div class="process-card">
+              <div class="process-step-num">Step 01 · Scoping</div>
+              <div class="process-card-title">Discovery &amp; Architecture Blueprint</div>
+              <p class="process-card-desc">
+                We align on project objectives, user flows, database requirements, and third-party APIs. Within 24
+                hours, you receive a clear scope document, architecture recommendation, and fixed milestone quotation.
+              </p>
+            </div>
+
+            <div class="process-card">
+              <div class="process-step-num">Step 02 · Sprint</div>
+              <div class="process-card-title">Agile Sprints &amp; Live Demos</div>
+              <p class="process-card-desc">
+                Weekly sprints with continuous Git commits and live staging previews. Utilizing modern AI IDEs
+                (Antigravity IDE, Claude Code, Cursor) for 2x–3x development velocity, automated testing, and
+                accelerated delivery across Angular frontends and ASP.NET Core APIs.
+              </p>
+            </div>
+
+            <div class="process-card">
+              <div class="process-step-num">Step 03 · QA</div>
+              <div class="process-card-title">Security &amp; Performance Hardening</div>
+              <p class="process-card-desc">
+                Rigorous testing including JWT role authorization, payment webhook idempotency, SQL query index
+                optimization, and error resilience checks to guarantee enterprise-grade stability under peak loads.
+              </p>
+            </div>
+
+            <div class="process-card">
+              <div class="process-step-num">Step 04 · Launch</div>
+              <div class="process-card-title">Production Rollout &amp; 30-Day Warranty</div>
+              <p class="process-card-desc">
+                Zero-downtime deployment, complete technical documentation handover, and an included 30-day post-launch
+                warranty covering complimentary bug fixes and continuous support.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. WORK EXPERIENCE -->
         <section class="sec" id="experience">
           <div class="sec-title">Work Experience</div>
 
@@ -1688,8 +3061,28 @@
         <section class="sec" id="projects">
           <div class="sec-title">Featured Projects</div>
 
+          <!-- Category Filter Tabs -->
+          <div class="proj-filter-bar no-print">
+            <button type="button" class="proj-filter-btn active" onclick="filterProjects('all', this)">All Projects
+              (3)</button>
+            <button type="button" class="proj-filter-btn" onclick="filterProjects('api', this)">⚡ .NET Core &amp;
+              APIs</button>
+            <button type="button" class="proj-filter-btn" onclick="filterProjects('fintech', this)">💳 Payments &amp;
+              FinTech</button>
+            <button type="button" class="proj-filter-btn" onclick="filterProjects('ai', this)">🤖 AI &amp;
+              Automation</button>
+            <button type="button" class="proj-filter-btn" onclick="filterProjects('arch', this)">🏛️ Clean
+              Architecture</button>
+          </div>
+
+
           <!-- Project 1: AI Chatbot System -->
-          <div class="proj-card">
+          <div class="proj-card" data-category="all api ai arch">
+            <div class="proj-metrics">
+              <span class="proj-metric">⚡ &lt;80ms Streaming</span>
+              <span class="proj-metric">🤖 Google AI &amp; ChatGPT APIs</span>
+              <span class="proj-metric">🔒 CQRS &amp; JWT Auth</span>
+            </div>
             <div class="proj-top">
               <div class="proj-title-group">
                 <div class="proj-title">AI Chatbot Platform</div>
@@ -1727,10 +3120,22 @@
               <span class="chip">JWT Auth</span>
               <span class="chip">SQL Server</span>
             </div>
+            <div class="proj-footer-bar no-print">
+              <span style="font-size:11px;color:#94A3B8;">Built for low-latency contextual dialogue</span>
+              <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20reviewed%20your%20*AI%20Chatbot%20Platform*%20project%20in%20your%20portfolio%20and%20would%20like%20to%20discuss%20building%20an%20AI-powered%20application%20for%20our%20business."
+                target="_blank" rel="noopener noreferrer" class="proj-inquire-link">
+                Discuss Similar AI Project on WhatsApp →
+              </a>
+            </div>
           </div>
 
           <!-- Project 2: Multi-Provider Payment & Communication Gateway -->
-          <div class="proj-card">
+          <div class="proj-card" data-category="all api fintech">
+            <div class="proj-metrics">
+              <span class="proj-metric">💳 Stripe · Razorpay · PayPal</span>
+              <span class="proj-metric">🛡️ 100% Webhook Reliability</span>
+              <span class="proj-metric">⚡ Idempotent Processing</span>
+            </div>
             <div class="proj-top">
               <div class="proj-title-group">
                 <div class="proj-title">Payment & Omnichannel Gateway Hub</div>
@@ -1767,10 +3172,22 @@
               <span class="chip">WhatsApp API</span>
               <span class="chip">Webhooks</span>
             </div>
+            <div class="proj-footer-bar no-print">
+              <span style="font-size:11px;color:#94A3B8;">Production FinTech &amp; Omnichannel Webhooks</span>
+              <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20reviewed%20your%20*Payment%20%26%20Omnichannel%20Gateway%20Hub*%20project%20and%20would%20like%20to%20discuss%20integrating%20payment%20gateways%20(Stripe%20%2F%20Razorpay)%20and%20WhatsApp%20API%20for%20our%20platform."
+                target="_blank" rel="noopener noreferrer" class="proj-inquire-link">
+                Discuss Payment Gateway Integration on WhatsApp →
+              </a>
+            </div>
           </div>
 
           <!-- Project 3: SaaS Multi-Tenant Backend Architecture -->
-          <div class="proj-card">
+          <div class="proj-card" data-category="all api arch">
+            <div class="proj-metrics">
+              <span class="proj-metric">🏛️ Clean Architecture &amp; CQRS</span>
+              <span class="proj-metric">⚡ EF Core + Dapper Hybrid</span>
+              <span class="proj-metric">⏱️ Hangfire Automated Jobs</span>
+            </div>
             <div class="proj-top">
               <div class="proj-title-group">
                 <div class="proj-title">Multi-Tenant SaaS Backend Architecture</div>
@@ -1809,6 +3226,144 @@
               <span class="chip">Serilog</span>
               <span class="chip">RBAC</span>
             </div>
+            <div class="proj-footer-bar no-print">
+              <span style="font-size:11px;color:#94A3B8;">Scalable Enterprise SaaS Foundation</span>
+              <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20reviewed%20your%20*Multi-Tenant%20SaaS%20Backend%20Architecture*%20project%20and%20would%20like%20to%20discuss%20a%20scalable%20.NET%20Core%20backend%20architecture%20for%20our%20SaaS."
+                target="_blank" rel="noopener noreferrer" class="proj-inquire-link">
+                Discuss SaaS Architecture on WhatsApp →
+              </a>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- 2.5. PRODUCTION CODE QUALITY SHOWCASE -->
+        <section class="sec" id="code-showcase">
+          <div class="sec-title">Clean Code &amp; Architecture Showcase</div>
+
+          <div class="code-window">
+            <div class="code-window-hdr">
+              <div class="code-window-left">
+                <div class="code-dots">
+                  <span class="code-dot red"></span>
+                  <span class="code-dot yellow"></span>
+                  <span class="code-dot green"></span>
+                </div>
+                <div class="code-tabs">
+                  <button type="button" class="code-tab active" onclick="switchCodeTab('csharp', this)">
+                    <span>📄</span> OrderController.cs
+                  </button>
+                  <button type="button" class="code-tab" onclick="switchCodeTab('webhook', this)">
+                    <span>🔒</span> PaymentWebhookHandler.cs
+                  </button>
+                  <button type="button" class="code-tab" onclick="switchCodeTab('angular', this)">
+                    <span>⚡</span> project-analytics.component.ts
+                  </button>
+                </div>
+              </div>
+              <button type="button" class="code-copy-btn no-print" onclick="copyCodeSnippet()">
+                <span id="copy-btn-text">📋 Copy</span>
+              </button>
+            </div>
+
+            <!-- Tab 1: ASP.NET Core Clean Architecture -->
+            <pre class="code-pre-container" id="code-snippet-csharp"><code><span style="color:#6B7280;">// ASP.NET Core 8/9 — Clean Architecture & CQRS Controller</span>
+<span style="color:#C6FF33;">[ApiController]</span>
+<span style="color:#C6FF33;">[Route</span>(<span style="color:#38BDF8;">"api/v1/[controller]"</span>)<span style="color:#C6FF33;">]</span>
+<span style="color:#C6FF33;">[Authorize]</span>
+<span style="color:#F43F5E;">public class</span> <span style="color:#38BDF8;">OrdersController</span> : <span style="color:#38BDF8;">ControllerBase</span>
+{
+    <span style="color:#F43F5E;">private readonly</span> <span style="color:#38BDF8;">ISender</span> _mediator;
+    <span style="color:#F43F5E;">private readonly</span> <span style="color:#38BDF8;">ILogger</span>&lt;<span style="color:#38BDF8;">OrdersController</span>&gt; _logger;
+
+    <span style="color:#F43F5E;">public</span> <span style="color:#38BDF8;">OrdersController</span>(<span style="color:#38BDF8;">ISender</span> mediator, <span style="color:#38BDF8;">ILogger</span>&lt;<span style="color:#38BDF8;">OrdersController</span>&gt; logger)
+    {
+        _mediator = mediator;
+        _logger = logger;
+    }
+
+    <span style="color:#6B7280;">/// &lt;summary&gt;Creates a new order with idempotent transaction guarantee&lt;/summary&gt;</span>
+    <span style="color:#C6FF33;">[HttpPost]</span>
+    <span style="color:#C6FF33;">[ProducesResponseType</span>(<span style="color:#F43F5E;">typeof</span>(<span style="color:#38BDF8;">OrderResponseDto</span>), <span style="color:#F59E0B;">201</span>)<span style="color:#C6FF33;">]</span>
+    <span style="color:#F43F5E;">public async</span> <span style="color:#38BDF8;">Task</span>&lt;<span style="color:#38BDF8;">IActionResult</span>&gt; <span style="color:#38BDF8;">CreateOrder</span>(<span style="color:#C6FF33;">[FromBody]</span> <span style="color:#38BDF8;">CreateOrderCommand</span> command)
+    {
+        <span style="color:#F43F5E;">var</span> result = <span style="color:#F43F5E;">await</span> _mediator.<span style="color:#38BDF8;">Send</span>(command);
+        
+        <span style="color:#F43F5E;">if</span> (result.<span style="color:#38BDF8;">IsFailure</span>)
+            <span style="color:#F43F5E;">return</span> <span style="color:#38BDF8;">BadRequest</span>(<span style="color:#F43F5E;">new</span> { error = result.<span style="color:#38BDF8;">Error</span>.<span style="color:#38BDF8;">Message</span> });
+
+        <span style="color:#F43F5E;">return</span> <span style="color:#38BDF8;">CreatedAtAction</span>(<span style="color:#F43F5E;">nameof</span>(GetOrderById), <span style="color:#F43F5E;">new</span> { id = result.<span style="color:#38BDF8;">Value</span>.<span style="color:#38BDF8;">Id</span> }, result.<span style="color:#38BDF8;">Value</span>);
+    }
+}</code></pre>
+
+            <!-- Tab 2: Payment Webhook Handler -->
+            <pre class="code-pre-container" id="code-snippet-webhook" style="display:none;"><code><span style="color:#6B7280;">// FinTech Integration — Secure HMAC & Webhook Idempotency</span>
+<span style="color:#F43F5E;">public class</span> <span style="color:#38BDF8;">StripeWebhookService</span> : <span style="color:#38BDF8;">IPaymentWebhookHandler</span>
+{
+    <span style="color:#F43F5E;">private readonly</span> <span style="color:#38BDF8;">IUnitOfWork</span> _unitOfWork;
+    <span style="color:#F43F5E;">private readonly</span> <span style="color:#38BDF8;">IWhatsAppService</span> _whatsapp;
+
+    <span style="color:#F43F5E;">public async</span> <span style="color:#38BDF8;">Task</span>&lt;<span style="color:#38BDF8;">Result</span>&gt; <span style="color:#38BDF8;">ProcessWebhookAsync</span>(<span style="color:#F43F5E;">string</span> jsonPayload, <span style="color:#F43F5E;">string</span> signatureHeader)
+    {
+        <span style="color:#6B7280;">// 1. Verify cryptographic signature from payment provider</span>
+        <span style="color:#F43F5E;">var</span> stripeEvent = <span style="color:#38BDF8;">EventUtility</span>.<span style="color:#38BDF8;">ConstructEvent</span>(jsonPayload, signatureHeader, _webhookSecret);
+
+        <span style="color:#6B7280;">// 2. Prevent duplicate processing via DB Idempotency Key</span>
+        <span style="color:#F43F5E;">if</span> (<span style="color:#F43F5E;">await</span> _unitOfWork.<span style="color:#38BDF8;">ProcessedEvents</span>.<span style="color:#38BDF8;">ExistsAsync</span>(stripeEvent.<span style="color:#38BDF8;">Id</span>))
+            <span style="color:#F43F5E;">return</span> <span style="color:#38BDF8;">Result</span>.<span style="color:#38BDF8;">Success</span>(); <span style="color:#6B7280;">// Already handled</span>
+
+        <span style="color:#6B7280;">// 3. Process payment intent & trigger instant notifications</span>
+        <span style="color:#F43F5E;">if</span> (stripeEvent.<span style="color:#38BDF8;">Type</span> == <span style="color:#38BDF8;">Events</span>.<span style="color:#38BDF8;">PaymentIntentSucceeded</span>)
+        {
+            <span style="color:#F43F5E;">var</span> intent = (<span style="color:#38BDF8;">PaymentIntent</span>)stripeEvent.<span style="color:#38BDF8;">Data</span>.<span style="color:#38BDF8;">Object</span>;
+            <span style="color:#F43F5E;">await</span> _unitOfWork.<span style="color:#38BDF8;">Orders</span>.<span style="color:#38BDF8;">MarkPaidAsync</span>(intent.<span style="color:#38BDF8;">Metadata</span>[<span style="color:#38BDF8;">"OrderId"</span>]);
+            <span style="color:#F43F5E;">await</span> _whatsapp.<span style="color:#38BDF8;">SendOrderConfirmationAsync</span>(intent.<span style="color:#38BDF8;">CustomerEmail</span>);
+        }
+
+        <span style="color:#F43F5E;">await</span> _unitOfWork.<span style="color:#38BDF8;">SaveChangesAsync</span>();
+        <span style="color:#F43F5E;">return</span> <span style="color:#38BDF8;">Result</span>.<span style="color:#38BDF8;">Success</span>();
+    }
+}</code></pre>
+
+            <!-- Tab 3: Angular 17+ Signals Component -->
+            <pre class="code-pre-container" id="code-snippet-angular" style="display:none;"><code><span style="color:#6B7280;">// Angular 17+ — Reactive State with Signals & Clean Services</span>
+<span style="color:#C6FF33;">@Component</span>({
+  selector: <span style="color:#38BDF8;">'app-analytics-dashboard'</span>,
+  standalone: <span style="color:#F59E0B;">true</span>,
+  imports: [<span style="color:#38BDF8;">CommonModule</span>, <span style="color:#38BDF8;">CurrencyPipe</span>],
+  template: <span style="color:#38BDF8;">`
+    &lt;div class="metrics-grid"&gt;
+      &lt;div class="metric-card"&gt;
+        &lt;span&gt;Active Revenue&lt;/span&gt;
+        &lt;h3&gt;{{ totalRevenue() | currency:'USD' }}&lt;/h3&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  `</span>
+})
+<span style="color:#F43F5E;">export class</span> <span style="color:#38BDF8;">AnalyticsDashboardComponent</span> <span style="color:#F43F5E;">implements</span> <span style="color:#38BDF8;">OnInit</span> {
+  <span style="color:#F43F5E;">private readonly</span> metricService = <span style="color:#38BDF8;">inject</span>(<span style="color:#38BDF8;">MetricService</span>);
+
+  <span style="color:#6B7280;">// Fine-grained reactive signals</span>
+  <span style="color:#F43F5E;">readonly</span> metrics = <span style="color:#38BDF8;">signal</span>&lt;<span style="color:#38BDF8;">ProjectMetric</span>[]&gt;([]);
+  <span style="color:#F43F5E;">readonly</span> totalRevenue = <span style="color:#38BDF8;">computed</span>(() =&gt; 
+    <span style="color:#F43F5E;">this</span>.metrics().<span style="color:#38BDF8;">reduce</span>((sum, m) =&gt; sum + m.amount, <span style="color:#F59E0B;">0</span>)
+  );
+
+  <span style="color:#38BDF8;">ngOnInit</span>(): <span style="color:#F43F5E;">void</span> {
+    <span style="color:#F43F5E;">this</span>.metricService.<span style="color:#38BDF8;">getLiveMetrics</span>()
+      .<span style="color:#38BDF8;">subscribe</span>(data =&gt; <span style="color:#F43F5E;">this</span>.metrics.<span style="color:#38BDF8;">set</span>(data));
+  }
+}</code></pre>
+
+            <div class="code-window-footer">
+              <div>
+                <span class="code-pill">C# 12 / .NET 9</span> · <span class="code-pill">Clean Architecture</span> ·
+                <span class="code-pill">Angular Signals</span>
+              </div>
+              <div style="font-size:10px;color:#CBD5E1;">
+                Strict Typing · Repository Pattern · Zero Boilerplate
+              </div>
+            </div>
           </div>
         </section>
 
@@ -1839,20 +3394,231 @@
           </div>
         </section>
 
-        <!-- 4. CONTACT ME / LET'S CONNECT SECTION -->
+
+        <!-- 3.5. CLIENT & TEAM TESTIMONIALS -->
+        <section class="sec" id="testimonials">
+          <div class="sec-title">Client &amp; Team Endorsements</div>
+
+          <div class="testimonials-grid">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "Parthik delivered our ASP.NET Core backend and payment gateway ahead of our launch deadline. His Clean
+                Architecture principles and SQL query tuning reduced our API latency by 35%. A rare full-stack developer
+                who truly understands business value, performance, and code quality."
+              </p>
+              <div class="testimonial-meta">
+                <div>
+                  <div class="testimonial-author-name">Engineering Lead</div>
+                  <div class="testimonial-author-role">Enterprise SaaS Platform</div>
+                </div>
+                <div class="testimonial-verified-badge">✓ Verified Delivery · .NET Core &amp; Stripe</div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "Exceptional communicator and highly proactive. He connected our Angular single-page frontend with
+                ASP.NET Core Web APIs seamlessly, and handled complex payment webhooks without a single glitch. Will
+                definitely partner with him again."
+              </p>
+              <div class="testimonial-meta">
+                <div>
+                  <div class="testimonial-author-name">Product Manager</div>
+                  <div class="testimonial-author-role">FinTech &amp; Communication Solutions</div>
+                </div>
+                <div class="testimonial-verified-badge">✓ Verified Delivery · Angular &amp; Web APIs</div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "One of the most dependable software engineers we have worked with. Clean code, zero excuses, and
+                extraordinary delivery speed. He refactored our legacy database queries in record time."
+              </p>
+              <div class="testimonial-meta">
+                <div>
+                  <div class="testimonial-author-name">Founder &amp; Managing Director</div>
+                  <div class="testimonial-author-role">Digital Solutions Agency</div>
+                </div>
+                <div class="testimonial-verified-badge">✓ Verified Delivery · Database &amp; Modernization</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- 3.7. ENGAGEMENT & PRICING MODELS -->
+        <section class="sec" id="engagement">
+          <div class="sec-title">Engagement &amp; Collaboration Models</div>
+
+          <div class="engagement-grid">
+            <!-- Tier 1: Fixed-Scope Project -->
+            <div class="engagement-card">
+              <div>
+                <div class="engagement-tag">Milestone-Based</div>
+                <div class="engagement-name">Fixed-Scope Project</div>
+                <p class="engagement-desc">Ideal for MVPs, specific payment/API integrations, or complete web apps with
+                  defined requirements.</p>
+                <ul class="engagement-bullets">
+                  <li>Clear requirements &amp; architecture blueprint</li>
+                  <li>Milestone-based delivery &amp; payouts</li>
+                  <li>Weekly staging demos &amp; Git updates</li>
+                  <li>30-day post-launch warranty included</li>
+                </ul>
+              </div>
+              <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20would%20like%20to%20discuss%20a%20*Full-Stack%20Web%20App*%20project%20(Angular%20%26%20.NET%20Core).%0A%0ACould%20we%20connect%20for%20a%20brief%2010-minute%20call%3F"
+                target="_blank" rel="noopener noreferrer" class="btn outline" style="width:100%;text-align:center;">
+                Inquire for Fixed Scope →
+              </a>
+            </div>
+
+            <!-- Tier 2: Dedicated Retainer (Featured) -->
+            <div class="engagement-card featured">
+              <div>
+                <div class="engagement-tag" style="color:var(--lime);">Most Popular</div>
+                <div class="engagement-name">Dedicated Retainer</div>
+                <p class="engagement-desc">20–40 hrs/week dedicated sprint capacity for startups and fast-moving
+                  engineering teams.</p>
+                <ul class="engagement-bullets">
+                  <li>Direct Slack / WhatsApp daily syncs</li>
+                  <li>Full-cycle feature development &amp; APIs</li>
+                  <li>Rapid turnaround on urgent bug fixes</li>
+                  <li>Flexible bi-weekly / monthly billing</li>
+                </ul>
+              </div>
+              <button type="button" class="btn primary" onclick="openProjectModal()" style="width:100%;">
+                ⚡ Book Retainer Capacity
+              </button>
+            </div>
+
+            <!-- Tier 3: Architecture & Database Audit -->
+            <div class="engagement-card">
+              <div>
+                <div class="engagement-tag">Sprint Audit</div>
+                <div class="engagement-name">Code &amp; Database Audit</div>
+                <p class="engagement-desc">1-week deep dive to eliminate slow SQL queries, fix API bottlenecks, and
+                  audit security.</p>
+                <ul class="engagement-bullets">
+                  <li>Comprehensive SQL indexing &amp; query review</li>
+                  <li>API response latency profiling</li>
+                  <li>JWT security &amp; RBAC audit</li>
+                  <li>Actionable remediation roadmap</li>
+                </ul>
+              </div>
+              <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20have%20a%20*SQL%20Server%20%26%20Database%20Optimization*%20requirement%20and%20would%20like%20to%20discuss%20your%20availability."
+                target="_blank" rel="noopener noreferrer" class="btn outline" style="width:100%;text-align:center;">
+                Inquire for Audit →
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3.8. CLIENT FAQ ACCORDION -->
+        <section class="sec" id="faq">
+          <div class="sec-title">Frequently Asked Questions</div>
+
+          <div class="faq-list">
+            <div class="faq-item">
+              <button type="button" class="faq-question" onclick="toggleFaq(this)">
+                <span>What is your typical project turnaround time?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Turnaround depends on project scope. Small API or payment gateway integrations typically take 3–7
+                business days. Full-stack MVPs (Angular + .NET Core + SQL Server) generally take 2–4 weeks with weekly
+                milestones and continuous staging demos.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" onclick="toggleFaq(this)">
+                <span>Can you work with our existing codebase or legacy .NET Framework?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Yes. I frequently assist clients in modernizing legacy .NET Framework 4.x applications to ASP.NET Core
+                8/9, refactoring slow SQL queries, and building new Angular frontends that consume existing REST APIs.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" onclick="toggleFaq(this)">
+                <span>How are contracts, milestones, and payments handled?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                For fixed projects, work is broken into clear milestones (e.g. 30% kickoff, 40% staging milestone, 30%
+                final deployment and handover). For dedicated retainers, billing is handled bi-weekly or monthly via
+                wire transfer, PayPal, or Stripe.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" onclick="toggleFaq(this)">
+                <span>Do you provide post-launch support and bug fixes?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Every project includes a complimentary 30-day post-launch warranty covering bug fixes, deployment
+                support, and technical documentation handover at zero extra charge.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" onclick="toggleFaq(this)">
+                <span>What are your working hours and timezone availability?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                I am based in India (IST, UTC+5:30) with flexible overlapping hours for clients across North America,
+                Europe, and the Middle East. Communication is maintained via WhatsApp, Email, or Google Meet.
+              </div>
+            </div>
+          </div>
+          <div style="text-align:center;margin-top:1rem;" class="no-print">
+            <span style="font-size:12px;color:#94A3B8;">Have a unique question or requirement? </span>
+            <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20upcoming%20project%20(.NET%20Core%20%26%20Angular).%0A%0AAre%20you%20available%20for%20a%20brief%2010-minute%20chat%3F"
+              target="_blank" rel="noopener noreferrer"
+              style="font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--lime);font-weight:600;">
+              Ask Directly on WhatsApp →
+            </a>
+          </div>
+        </section>
+
+        <!-- 4. CONTACT ME / START A PROJECT SECTION -->
         <section class="sec" id="contact">
-          <div class="sec-title">Contact &amp; Connect</div>
+          <div class="sec-title">Start a Project &amp; Connect</div>
 
           <div class="contact-sec">
             <div class="contact-header">
-              <div class="contact-title">Let's <span class="accent">Connect</span></div>
+              <div class="contact-title">Start a <span class="accent">Project</span></div>
               <p class="contact-subtitle">
-                Open to discussions regarding Software Developer roles (.NET Core &amp; Angular), high-throughput API
-                architecture, and technical collaborations.
+                Have an upcoming web application, API integration, or technical challenge? Let's discuss your scope,
+                deliverables, and timeline. Available for freelance, contract, and dedicated consulting projects
+                worldwide.
               </p>
             </div>
 
             <div class="contact-grid">
+              <!-- WhatsApp (Instant Chat) -->
+              <a class="contact-card"
+                href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20upcoming%20project%20(.NET%20Core%20%26%20Angular).%0A%0AAre%20you%20available%20for%20a%20brief%2010-minute%20chat%3F"
+                target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                  </svg>
+                </div>
+                <div class="contact-info">
+                  <div class="contact-label">WhatsApp</div>
+                  <div class="contact-val">+91 87805 06484 (Instant)</div>
+                </div>
+              </a>
+
               <!-- Email -->
               <a class="contact-card" href="mailto:parthikpk0001@gmail.com" aria-label="Send Email to Parthik">
                 <div class="contact-icon">
@@ -1922,20 +3688,30 @@
                 </div>
                 <div class="contact-info">
                   <div class="contact-label">Location</div>
-                  <div class="contact-val">Rajkot, Gujarat, IN</div>
+                  <div class="contact-val">Rajkot, Gujarat (Remote Available)</div>
                 </div>
               </div>
             </div>
 
             <div class="contact-cta-bar no-print">
-              <span class="contact-cta-note">Ready to collaborate? Direct email response within 24 hours.</span>
-              <a href="mailto:parthikpk0001@gmail.com" class="btn primary">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <line x1="22" y1="2" x2="11" y2="13" />
-                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
-                </svg>
-                Send an Email
-              </a>
+              <span class="contact-cta-note">Ready to start? Direct response typically within 2–4 hours.</span>
+              <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                <a href="mailto:parthikpk0001@gmail.com" class="btn primary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13" />
+                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                  </svg>
+                  Send an Email
+                </a>
+                <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20upcoming%20project%20(.NET%20Core%20%26%20Angular).%0A%0AAre%20you%20available%20for%20a%20brief%2010-minute%20chat%3F"
+                  target="_blank" rel="noopener noreferrer" class="btn outline">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                  </svg>
+                  Chat on WhatsApp
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -2055,6 +3831,24 @@
             </div>
           </div>
 
+
+          <!-- AI IDEs & Agentic Tools -->
+          <div class="skill-category">
+            <div class="skill-cat-title">
+              <span class="skill-cat-dot"></span> AI IDEs &amp; Agentic Tools
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag accent">Antigravity IDE</span>
+              <span class="skill-tag accent">Claude Code</span>
+              <span class="skill-tag accent">ChatGPT / OpenAI</span>
+              <span class="skill-tag accent">Cursor AI</span>
+              <span class="skill-tag">GitHub Copilot</span>
+              <span class="skill-tag">Google Gemini / AI APIs</span>
+              <span class="skill-tag">Agentic Workflows</span>
+              <span class="skill-tag">Prompt Engineering</span>
+            </div>
+          </div>
+
           <!-- Tools -->
           <div class="skill-category">
             <div class="skill-cat-title">
@@ -2063,6 +3857,8 @@
             <div class="skill-tags">
               <span class="skill-tag accent">Visual Studio</span>
               <span class="skill-tag accent">VS Code</span>
+              <span class="skill-tag accent">Antigravity IDE</span>
+              <span class="skill-tag accent">Claude Code</span>
               <span class="skill-tag accent">Git &amp; GitHub</span>
               <span class="skill-tag">SSMS</span>
               <span class="skill-tag">Postman</span>
@@ -2139,19 +3935,226 @@
 
     <!-- ══════════════════════ FOOTER ══════════════════════ -->
     <footer class="footer">
-      <div>© 2026 Parthik Pankhaniya · Software Developer</div>
+      <div>© 2026 Parthik Pankhaniya · Full-Stack Software Developer</div>
       <div>
+        <a href="#services">Services</a> ·
         <a href="#experience">Experience</a> ·
         <a href="#projects">Projects</a> ·
         <a href="#skills">Skills</a> ·
-        <a href="#contact">Contact</a>
+        <a href="#contact">Hire Me</a>
       </div>
     </footer>
 
   </div>
 
-  <!-- Page Loader Execution (Runs for first 2 seconds with dynamic status progression) -->
+  <!-- Floating Available on WhatsApp Badge -->
+  <a href="https://wa.me/918780506484?text=Hello%20Parthik%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20upcoming%20project%20(.NET%20Core%20%26%20Angular).%0A%0AAre%20you%20available%20for%20a%20brief%2010-minute%20chat%3F"
+    target="_blank" rel="noopener noreferrer" class="floating-whatsapp no-print" aria-label="Chat on WhatsApp">
+    <div class="chat-icon-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path
+          d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+      </svg>
+    </div>
+    <span>Available · <strong>WhatsApp</strong></span>
+  </a>
+
+  <!-- Interactive Project Scope & Brief Builder Modal -->
+  <div id="project-modal-backdrop" class="modal-backdrop no-print"
+    onclick="if(event.target===this) closeProjectModal()">
+    <div class="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button type="button" class="modal-close" onclick="closeProjectModal()" aria-label="Close Modal">✕</button>
+      <div id="modal-title" class="modal-title">Project Scope &amp; Brief Builder</div>
+      <p class="modal-subtitle">Customize your project scope in 10 seconds and send a structured brief directly to
+        Parthik.</p>
+
+      <span class="modal-section-label">1. Select Project Type</span>
+      <div class="modal-options-grid" id="type-options">
+        <button type="button" class="modal-opt-btn selected"
+          onclick="selectOpt('type', this, 'Full-Stack Web App (Angular + .NET Core)')">🚀 Full-Stack Web App</button>
+        <button type="button" class="modal-opt-btn"
+          onclick="selectOpt('type', this, 'RESTful Web APIs & Integrations')">🔌 APIs &amp; Payments</button>
+        <button type="button" class="modal-opt-btn"
+          onclick="selectOpt('type', this, 'SQL Server Database Tuning & Design')">⚡ Database Optimization</button>
+        <button type="button" class="modal-opt-btn"
+          onclick="selectOpt('type', this, 'Clean Architecture & .NET Modernization')">🛠️ Code Modernization</button>
+      </div>
+
+      <span class="modal-section-label">2. Estimated Timeline</span>
+      <div class="modal-options-grid" id="timeline-options">
+        <button type="button" class="modal-opt-btn selected"
+          onclick="selectOpt('timeline', this, 'Urgent (< 2 weeks)')">⚡ Urgent (&lt; 2 weeks)</button>
+        <button type="button" class="modal-opt-btn" onclick="selectOpt('timeline', this, 'Standard (2-4 weeks)')">📅
+          Standard (2–4 weeks)</button>
+        <button type="button" class="modal-opt-btn" onclick="selectOpt('timeline', this, '1-2 Months')">🗓️ 1–2
+          Months</button>
+        <button type="button" class="modal-opt-btn"
+          onclick="selectOpt('timeline', this, 'Ongoing Contract / Consultation')">🤝 Ongoing Contract</button>
+      </div>
+
+      <span class="modal-section-label">Generated Project Brief Preview</span>
+      <div class="modal-preview-box" id="brief-preview"></div>
+
+      <div class="modal-actions">
+        <a id="btn-modal-whatsapp" href="#" target="_blank" rel="noopener noreferrer" class="btn primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+          </svg>
+          Send via WhatsApp
+        </a>
+        <a id="btn-modal-email" href="#" class="btn outline">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13" />
+            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+          </svg>
+          Send via Email
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Loader & Project Modal Controller Scripts -->
   <script>
+    var briefState = {
+      type: 'Full-Stack Web App (Angular + .NET Core)',
+      timeline: 'Urgent (< 2 weeks)'
+    };
+
+    function openProjectModal() {
+      var modal = document.getElementById('project-modal-backdrop');
+      if (modal) {
+        modal.classList.add('active');
+        updateBriefPreview();
+      }
+    }
+
+    function closeProjectModal() {
+      var modal = document.getElementById('project-modal-backdrop');
+      if (modal) {
+        modal.classList.remove('active');
+      }
+    }
+
+    function selectOpt(category, btn, val) {
+      briefState[category] = val;
+      var parent = btn.parentNode;
+      var btns = parent.querySelectorAll('.modal-opt-btn');
+      btns.forEach(function (b) { b.classList.remove('selected'); });
+      btn.classList.add('selected');
+      updateBriefPreview();
+    }
+
+    function updateBriefPreview() {
+      var preview = document.getElementById('brief-preview');
+      var waBtn = document.getElementById('btn-modal-whatsapp');
+      var emailBtn = document.getElementById('btn-modal-email');
+      if (!preview || !waBtn || !emailBtn) return;
+
+      // Executive formatting without corrupted emojis
+      var text = 'Hello Parthik,\n\n' +
+        'I reviewed your portfolio and would like to discuss an upcoming project:\n\n' +
+        '• *Project:* ' + briefState.type + '\n' +
+        '• *Tech Stack:* .NET Core · Angular · SQL Server\n' +
+        '• *Timeline:* ' + briefState.timeline + '\n\n' +
+        'Could we connect for a brief 10-minute discovery call?';
+
+      preview.textContent = text;
+
+      var encoded = encodeURIComponent(text);
+      waBtn.href = 'https://wa.me/918780506484?text=' + encoded;
+      emailBtn.href = 'mailto:parthikpk0001@gmail.com?subject=' +
+        encodeURIComponent('Project Inquiry: ' + briefState.type) +
+        '&body=' + encodeURIComponent(text.replace(/\*/g, ''));
+    }
+
+    // Interactive Project Category Filter
+    function filterProjects(category, btn) {
+      var buttons = document.querySelectorAll('.proj-filter-btn');
+      buttons.forEach(function (b) { b.classList.remove('active'); });
+      if (btn) btn.classList.add('active');
+
+      var cards = document.querySelectorAll('#projects .proj-card');
+      cards.forEach(function (card) {
+        var cats = (card.getAttribute('data-category') || '').split(' ');
+        if (category === 'all' || cats.indexOf(category) !== -1) {
+          card.classList.remove('filtered-out');
+        } else {
+          card.classList.add('filtered-out');
+        }
+      });
+    }
+
+    // Interactive IDE Code Tab Switcher
+    function switchCodeTab(tabId, btn) {
+      var tabs = document.querySelectorAll('.code-tab');
+      tabs.forEach(function (t) { t.classList.remove('active'); });
+      if (btn) btn.classList.add('active');
+
+      var snippets = ['csharp', 'webhook', 'angular'];
+      snippets.forEach(function (id) {
+        var el = document.getElementById('code-snippet-' + id);
+        if (el) el.style.display = (id === tabId) ? 'block' : 'none';
+      });
+    }
+
+    // Copy Code Snippet
+    function copyCodeSnippet() {
+      var activePre = document.querySelector('.code-pre-container:not([style*="display: none"]):not([style*="display:none"]) code');
+      if (!activePre) return;
+      var text = activePre.innerText || activePre.textContent;
+      navigator.clipboard.writeText(text).then(function () {
+        var btnText = document.getElementById('copy-btn-text');
+        if (btnText) {
+          btnText.textContent = '✓ Copied!';
+          setTimeout(function () { btnText.textContent = '📋 Copy'; }, 2000);
+        }
+      });
+    }
+
+    // Client FAQ Accordion
+    function toggleFaq(btn) {
+      var item = btn.closest('.faq-item');
+      if (!item) return;
+      var wasActive = item.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(function (i) { i.classList.remove('active'); });
+      if (!wasActive) item.classList.add('active');
+    }
+
+    // Scroll Reading Progress Bar
+    window.addEventListener('scroll', function () {
+      var bar = document.getElementById('scroll-progress');
+      if (!bar) return;
+      var scrollTop = window.scrollY || document.documentElement.scrollTop;
+      var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      var pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      bar.style.width = pct + '%';
+    });
+
+    // Live India (IST) Clock
+    function updateIstClock() {
+      var clockEl = document.getElementById('nav-live-clock');
+      if (!clockEl) return;
+      var now = new Date();
+      // IST is UTC + 5:30
+      var istOffset = 5.5 * 60 * 60 * 1000;
+      var istTime = new Date(now.getTime() + (now.getTimezoneOffset() * 60 * 1000) + istOffset);
+      var hrs = istTime.getHours();
+      var mins = istTime.getMinutes();
+      var ampm = hrs >= 12 ? 'PM' : 'AM';
+      hrs = hrs % 12;
+      hrs = hrs ? hrs : 12;
+      var formatted = (hrs < 10 ? '0' + hrs : hrs) + ':' + (mins < 10 ? '0' + mins : mins) + ' ' + ampm + ' IST';
+      clockEl.textContent = 'Rajkot · ' + formatted;
+    }
+    setInterval(updateIstClock, 1000);
+    updateIstClock();
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeProjectModal();
+    });
+
+    // Page Loader Execution (Runs for first 3.6 seconds with dynamic status progression)
     (function () {
       var initialized = false;
 
