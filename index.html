@@ -9,7 +9,8 @@
 
   <!-- Favicon (Developer / .NET Developer) -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="alternate icon" type="image/png" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg">
+  <link rel="alternate icon" type="image/png"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg">
 
   <!-- Apple Touch Icon -->
   <link rel="apple-touch-icon" href="favicon.svg">
@@ -28,7 +29,8 @@
   <meta property="og:title" content="Parthik Pankhaniya — Software Developer | .NET Core &amp; Angular">
   <meta property="og:description"
     content="Engineering high-performance web applications with .NET Core backend, Angular frontend, Clean Architecture, and scalable RESTful APIs.">
-  <meta property="og:image" content="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg">
+  <meta property="og:image"
+    content="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg">
   <meta property="og:type" content="website">
 
   <!-- Twitter Card -->
@@ -36,7 +38,8 @@
   <meta name="twitter:title" content="Parthik Pankhaniya — Software Developer | .NET Core &amp; Angular">
   <meta name="twitter:description"
     content="3.5+ years experience | .NET Core Backend | Angular Frontend | C# | ASP.NET Core | RESTful Web APIs | SQL Server">
-  <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg">
+  <meta name="twitter:image"
+    content="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -160,7 +163,7 @@
     }
 
     .loader-progress {
-      width: 140px;
+      width: 220px;
       height: 3px;
       background: var(--black3);
       border-radius: 3px;
@@ -173,7 +176,7 @@
       width: 0;
       background: linear-gradient(90deg, var(--lime-dim), var(--lime));
       border-radius: 3px;
-      animation: loader-fill 2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+      animation: loader-fill 3.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
     }
 
     @keyframes loader-fill {
@@ -184,6 +187,54 @@
       100% {
         width: 100%;
       }
+    }
+
+    .loader-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-top: 1.25rem;
+      padding: 7px 16px;
+      background: rgba(18, 22, 32, 0.85);
+      border: 1px solid rgba(198, 255, 51, 0.25);
+      border-radius: 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: #E2E8F0;
+      letter-spacing: 0.02em;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(8px);
+    }
+
+    .loader-status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--lime);
+      box-shadow: 0 0 10px var(--lime);
+      animation: loader-pulse 1.1s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes loader-pulse {
+
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: 0.35;
+        transform: scale(0.85);
+      }
+    }
+
+    .loader-status-text {
+      transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      white-space: nowrap;
+      color: var(--white);
+      font-weight: 500;
     }
 
     /* ─── BUTTON SYSTEM ───────────────────────── */
@@ -1363,10 +1414,14 @@
   <div id="page-loader" class="page-loader" aria-hidden="true">
     <div class="loader-content">
       <div class="loader-spinner"></div>
-      <div class="loader-brand">Parthik Pankhaniya<span class="accent">.</span></div>
+      <div class="loader-brand">Parthik Pankhaniya</div>
       <div class="loader-role">Software Developer · .NET Core &amp; Angular</div>
       <div class="loader-progress">
         <div class="loader-progress-bar"></div>
+      </div>
+      <div class="loader-status">
+        <span class="loader-status-dot"></span>
+        <span id="loader-status-text" class="loader-status-text">Connecting with software developer...</span>
       </div>
     </div>
   </div>
@@ -1490,13 +1545,15 @@
             </div>
             <ul class="exp-list">
               <li>Developing responsive single-page frontend applications and dynamic interactive UI components using
-                <span class="hl">Angular</span> and TypeScript.</li>
+                <span class="hl">Angular</span> and TypeScript.
+              </li>
               <li>Architecting and engineering scalable backend services and <span class="hl">RESTful Web APIs</span>
                 using C# and <span class="hl">.NET Core / ASP.NET Core</span> with Clean Architecture principles.</li>
               <li>Connecting Angular client applications with .NET Core backend through high-performance REST APIs and
                 real-time <span class="hl">WebSocket</span> communications.</li>
               <li>Implementing domain-driven data access layers, complex LINQ queries, and database optimizations with
-                <span class="hl">Entity Framework Core</span> and SQL Server.</li>
+                <span class="hl">Entity Framework Core</span> and SQL Server.
+              </li>
               <li>Building secure, robust API endpoints with <span class="hl">JWT authentication</span>, role-based
                 authorization, and centralized structured error handling.</li>
             </ul>
@@ -2093,21 +2150,58 @@
 
   </div>
 
-  <!-- Page Loader Execution (Runs for first 2 seconds after full page load) -->
+  <!-- Page Loader Execution (Runs for first 2 seconds with dynamic status progression) -->
   <script>
-    window.addEventListener('load', function () {
-      setTimeout(function () {
-        var loader = document.getElementById('page-loader');
-        if (loader) {
-          loader.classList.add('loaded');
+    (function () {
+      var initialized = false;
+
+      function initPageLoader() {
+        if (initialized) return;
+        initialized = true;
+
+        var statusText = document.getElementById('loader-status-text');
+
+        function setStatus(text) {
+          if (!statusText) return;
+          statusText.style.opacity = '0';
+          statusText.style.transform = 'translateY(-3px)';
           setTimeout(function () {
-            if (loader.parentNode) {
-              loader.parentNode.removeChild(loader);
-            }
-          }, 600);
+            statusText.textContent = text;
+            statusText.style.opacity = '1';
+            statusText.style.transform = 'translateY(0)';
+          }, 200);
         }
-      }, 1000);
-    });
+
+        // Progression step 2: Setting up resume portfolio (at 1.25s)
+        setTimeout(function () {
+          setStatus('Setting up portfolio for you...');
+        }, 1250);
+
+        // Progression step 3: Just one last thing (at 2.5s)
+        setTimeout(function () {
+          setStatus('Just one last thing...');
+        }, 2500);
+
+        // Smooth complete and dismissal after 3.6 seconds
+        setTimeout(function () {
+          var loader = document.getElementById('page-loader');
+          if (loader) {
+            loader.classList.add('loaded');
+            setTimeout(function () {
+              if (loader.parentNode) {
+                loader.parentNode.removeChild(loader);
+              }
+            }, 600);
+          }
+        }, 3600);
+      }
+
+      if (document.readyState === 'complete') {
+        initPageLoader();
+      } else {
+        window.addEventListener('load', initPageLoader);
+      }
+    })();
   </script>
 </body>
 
